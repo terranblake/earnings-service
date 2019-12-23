@@ -1,0 +1,23 @@
+{
+  "name": "@postilion/earnings-service",
+  "version": "1.0.0",
+  "description": "#### Handles jobs for everything earnings-related; earnings calls and releases as the most likely job type",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terranblake/earnings-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terranblake/earnings-service/issues"
+  },
+  "homepage": "https://github.com/terranblake/earnings-service#readme",
+  "dependencies": {
+    "@postilion/event-framework": "^1.2.6"
+  }
+}
