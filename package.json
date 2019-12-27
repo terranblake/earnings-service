@@ -4,6 +4,7 @@
   "description": "#### Handles jobs for everything earnings-related; earnings calls and releases as the most likely job type",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,9 @@
   },
   "homepage": "https://github.com/terranblake/earnings-service#readme",
   "dependencies": {
-    "@postilion/event-framework": "^1.2.6"
+    "@postilion/events": "github:terranblake/events",
+    "@postilion/models": "github:terranblake/models",
+    "@postilion/storage": "github:terranblake/storage",
+    "@postilion/utils": "github:terranblake/utils"
   }
 }
