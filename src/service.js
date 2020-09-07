@@ -1,6 +1,5 @@
-const { EventFramework } = require('@postilion/event-framework');
+const { PubSub } = require('@postilion/pubsub');
 const subscriptions = require('./subscriptions');
 
-const url = process.env.MONGODB;
-const events = new EventFramework(url, subscriptions);
-module.exports = events;
+const pubsub = new PubSub(subscriptions);
+module.exports = pubsub;

@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/terranblake/earnings-service#readme",
   "dependencies": {
-    "@postilion/events": "github:terranblake/events",
+    "@postilion/pubsub": "github:terranblake/pubsub",
     "@postilion/models": "github:terranblake/models",
-    "@postilion/storage": "github:terranblake/storage",
+    "@postilion/stores": "github:terranblake/stores",
     "@postilion/utils": "github:terranblake/utils"
   }
 }
